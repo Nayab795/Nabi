@@ -99,6 +99,28 @@ body{
 
 /* quick facts */
 .quick-facts { margin-top:1rem; color:var(--muted); font-size:.95rem; display:flex; gap:1.2rem; flex-wrap:wrap; }
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 700px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.skills-list li {
+  background: #f9fbff;
+  border-left: 4px solid #3b82f6;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.skills-list strong {
+  color: #1d4ed8;
+}
 
 /* ========== Cards & Panels ========== */
 .card {
@@ -218,7 +240,3 @@ body{
 
 /* tiny helpers for boxed element if you keep it inline */
 .boxed--dark { background: linear-gradient(90deg,var(--accent),var(--accent-2)); color:#04120f; padding:.22rem .6rem; border-radius:8px; transform: rotate(-1deg); font-weight:700; }
-/* =========================
-   Nayab • Light Portfolio
-   Colors: soft white, teal accents, gentle coral highlights
-   ========================= */
