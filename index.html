@@ -6,6 +6,7 @@
   <title>Nayab • Portfolio</title>
   <meta name="description" content="Nayab — Web & App Developer. React Native (Expo), HTML, CSS, JavaScript, Firebase basics. Final-year BS IT student." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -24,44 +25,89 @@
       </a>
 
       <nav class="nav" aria-label="Primary">
-        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-        </button>
-        <ul class="nav-list">
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#education" class="nav-link">Education</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-      </nav> <!-- navigation bar -->
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <ul class="nav-list">
+    <li>
+      <a href="#home" class="nav-link active">
+        <i class="fas fa-house"></i>
+        <span>Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="#about" class="nav-link">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a>
+    </li>
+    <li>
+      <a href="#skills" class="nav-link">
+        <i class="fas fa-code"></i>
+        <span>Skills</span>
+      </a>
+    </li>
+    <li>
+      <a href="#projects" class="nav-link">
+        <i class="fas fa-briefcase"></i>
+        <span>Projects</span>
+      </a>
+    </li>
+    <li>
+      <a href="#education" class="nav-link">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Education</span>
+      </a>
+    </li>
+    <li>
+      <a href="#contact" class="nav-link">
+        <i class="fas fa-envelope"></i>
+        <span>Contact</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
     </div>
   </header>
 
   <main>
     <!-- Hero -->
     <section id="home" class="section hero">
-      <div class="container grid-2">
-        <div class="hero-text reveal-up">
-        <h1 class="headline">Hi, I'm <span class="boxed">Nayab</span></h1>
-        <h2 class="subtitle"><span id="typewriter"></span></h2>
-          <p class="lead">
-            Fresh BS IT graduate specializing in AI, mobile app development, and web solutions. Skilled in React Native, Python, FastAPI, and Firebase.
-            Experienced in building academic and professional projects combining software engineering with AI. <strong>Fashion App</strong> using <strong>React Native (Expo)</strong> and Firebase basics.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="#projects">See Projects</a>
-            <a class="btn ghost" href="assets/resume/CV.pdf" download>Download CV</a>
-          </div>
-          <div class="quick-facts">
-            <div><strong>Location:</strong> Wah / Taxila, Rawalpindi, Pakistan</div>
-            <div><strong>Looking for:</strong> IT Support • Tech Ops • Web/App Dev (Intern/Junior)</div>
-          </div>
-        </div>
-        </div>
+  <div class="container hero-center">
+
+    <div class="hero-text reveal-up">
+      <h1 class="headline">
+        Hi, I'm <span class="boxed">Nayab</span>
+      </h1>
+
+      <h2 class="subtitle">
+        <span id="typewriter"></span>
+      </h2>
+
+      <p class="lead">
+        Fresh BS IT graduate specializing in AI, mobile app development, and web solutions.
+        Skilled in React Native, Python, FastAPI, and Firebase.
+        Built an <strong>AI Fashion App</strong> using <strong>React Native (Expo)</strong> and Firebase basics.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn ghost" href="assets/resume/CV.pdf" download>Download CV</a>
       </div>
-    </section>
+
+      <div class="quick-facts">
+        <span>📍 Wah / Taxila, Pakistan</span>
+        <span>💼 Open for Intern / Junior Roles / Computer Operator</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     <!-- About -->
     <section id="about" class="section">
@@ -93,79 +139,132 @@
       </div>
     </section> 
 
-    <!-- Skills -->
     <section id="skills" class="section alt">
   <div class="container">
     <h3 class="section-title center">Skills</h3>
 
-    <ul class="skills-list">
-      <li><strong>Programming:</strong> Python, JavaScript (ES6+), PHP, SQL, HTML, CSS</li>
-      <li><strong>Frameworks:</strong> React Native, FastAPI, Node.js (basic)</li>
-      <li><strong>Databases:</strong> Firebase Firestore, MySQL, XAMPP Server</li>
-      <li><strong>AI/ML:</strong> TensorFlow, EfficientNet</li>
-      <li><strong>Tools:</strong> Git/GitHub, REST APIs</li>
-    </ul>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal-up">
+        <i class="fas fa-code skill-icon"></i>
+        <h4>Programming</h4>
+        <p>Python, JavaScript, PHP, SQL</p>
+      </div>
+
+      <div class="skill-card reveal-up">
+        <i class="fas fa-mobile-alt skill-icon"></i>
+        <h4>App Development</h4>
+        <p>React Native (Expo)</p>
+      </div>
+
+      <div class="skill-card reveal-up">
+        <i class="fas fa-globe skill-icon"></i>
+        <h4>Web Development</h4>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="skill-card reveal-up">
+        <i class="fas fa-database skill-icon"></i>
+        <h4>Databases</h4>
+        <p>Firebase, MySQL, XAMPP</p>
+      </div>
+
+      <div class="skill-card reveal-up">
+        <i class="fas fa-brain skill-icon"></i>
+        <h4>AI / ML</h4>
+        <p>Basics of TensorFlow, EfficientNet, Pandas, NumPy, and Matplotlib</p>
+
+      </div>
+
+      <div class="skill-card reveal-up">
+        <i class="fas fa-tools skill-icon"></i>
+        <h4>Tools</h4>
+        <p>Git, GitHub, REST APIs</p>
+      </div>
+
+    </div>
   </div>
 </section>
 
+
     <!-- Projects -->
-    <section id="projects" class="section">
+<section id="projects" class="section">
   <div class="container">
-   <h3 class="section-title">Projects</h3>
+    <h3 class="section-title">Projects</h3>
+
     <div class="projects-grid">
 
       <!-- Project 1 -->
       <article class="project-card reveal-up">
-        <div class="project-tag">Mobile • React Native (Expo)</div>
-        <h4>AI-Virtual Stylish App</h4>
+        <div class="project-header">
+          <i class="fas fa-mobile-alt project-icon"></i>
+          <span class="project-tag">Mobile • React Native (Expo)</span>
+        </div>
+
+        <h4>AI Virtual Stylish App</h4>
         <p>
-          A mobile application that helps users try outfits virtually and manage their wardrobe. Built with React Native (Expo),
-          with Firebase basics for authentication and storage. Focused on clean UI, smooth interactions, and user-first flows.
+          A mobile application that helps users try outfits virtually and manage their wardrobe.
+          Built with React Native (Expo) and Firebase basics.
         </p>
+
         <ul class="project-points">
-          <li>Wardrobe uploads, gallery experience</li>
-          <li>Basic auth & image storage</li>
-          <li>Responsive UI with modern transitions</li>
+          <li>Wardrobe uploads & gallery</li>
+          <li>Authentication & image storage</li>
+          <li>Clean UI & smooth interactions</li>
         </ul>
       </article>
 
       <!-- Project 2 -->
       <article class="project-card reveal-up">
-        <div class="project-tag">Web • HTML/CSS/JS</div>
-        <h4>Personal Portfolio (This Site)</h4>
+        <div class="project-header">
+          <i class="fas fa-laptop-code project-icon"></i>
+          <span class="project-tag">Web • HTML / CSS / JS</span>
+        </div>
+
+        <h4>Personal Portfolio</h4>
         <p>
-          Designed for clarity and elegance using a black-purple-white-pink palette; smooth scroll, reveal animations,
-          and accessible, responsive layout to impress recruiters in software houses and IT sector.
+          A responsive personal portfolio designed with smooth animations and
+          clean layout to attract recruiters.
         </p>
       </article>
 
       <!-- Project 3 -->
       <article class="project-card reveal-up">
-        <div class="project-tag">Mobile • React Native (Expo)</div>
+        <div class="project-header">
+          <i class="fas fa-calculator project-icon"></i>
+          <span class="project-tag">Mobile • React Native (Expo)</span>
+        </div>
+
         <h4>Calculator App</h4>
         <p>
-          A mobile-friendly calculator app built using React Native and Expo, supporting dark and light themes.
-          Designed for quick, accurate calculations with a clean UI and animated transitions.
+          A modern calculator app supporting dark and light themes
+          with animated UI interactions.
         </p>
+
         <ul class="project-points">
-          <li>Dark/Light theme toggle</li>
-          <li>History of previous calculations</li>
-          <li>Animated UI interactions</li>
+          <li>Theme toggle</li>
+          <li>Calculation history</li>
+          <li>Smooth animations</li>
         </ul>
       </article>
 
       <!-- Project 4 -->
       <article class="project-card reveal-up">
-        <div class="project-tag">Web • PHP & MySQL</div>
+        <div class="project-header">
+          <i class="fas fa-bullhorn project-icon"></i>
+          <span class="project-tag">Web • PHP & MySQL</span>
+        </div>
+
         <h4>College Announcement Website</h4>
         <p>
-          A full-stack web application for managing college announcements. Developed using PHP and MySQL with
-          XAMPP for local hosting and testing.
+          A full-stack web app to manage college announcements using PHP,
+          MySQL, and XAMPP.
         </p>
+
         <ul class="project-points">
-          <li>CRUD operations (Add, Update, Delete)</li>
-          <li>Admin dashboard for managing announcements</li>
-          <li>Responsive design for desktop and mobile</li>
+          <li>CRUD operations</li>
+          <li>Admin dashboard</li>
+          <li>Responsive design</li>
         </ul>
       </article>
 
