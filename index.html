@@ -160,7 +160,7 @@
       <div class="skill-card reveal-up">
         <i class="fas fa-globe skill-icon"></i>
         <h4>Web Development</h4>
-        <p>HTML, CSS, JavaScript</p>
+        <p>HTML, CSS, JavaScript ,React JS</p>
       </div>
 
       <div class="skill-card reveal-up">
@@ -179,7 +179,7 @@
       <div class="skill-card reveal-up">
         <i class="fas fa-tools skill-icon"></i>
         <h4>Tools</h4>
-        <p>Git, GitHub, REST APIs</p>
+        <p>Power BI Desktop, Git, GitHub, REST APIs </p>
       </div>
 
     </div>
@@ -187,92 +187,205 @@
 </section>
 
 
-    <!-- Projects -->
-<section id="projects" class="section">
+   <section id="projects" class="section">
   <div class="container">
     <h3 class="section-title">Projects</h3>
 
     <div class="projects-grid">
 
-      <!-- Project 1 -->
+      <!-- 1️⃣ AI Virtual Stylish App -->
       <article class="project-card reveal-up">
         <div class="project-header">
           <i class="fas fa-mobile-alt project-icon"></i>
           <span class="project-tag">Mobile • React Native (Expo)</span>
         </div>
-
         <h4>AI Virtual Stylish App</h4>
         <p>
           A mobile application that helps users try outfits virtually and manage their wardrobe.
           Built with React Native (Expo) and Firebase basics.
         </p>
-
         <ul class="project-points">
           <li>Wardrobe uploads & gallery</li>
           <li>Authentication & image storage</li>
           <li>Clean UI & smooth interactions</li>
         </ul>
+       <div class="screenshots-row">
+  <div class="screenshot-card" onclick="openModal('stylist',3)">
+    <img src="./assets/AI Virtual Stylist App/4.jpg" alt="SignUP Screen">
+    <span>SignUP Screen</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('stylist',0)">
+    <img src="./assets/AI Virtual Stylist App/1.jpg" alt="Home Screen">
+    <span>Home Screen</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('stylist',1)">
+    <img src="./assets/AI Virtual Stylist App/2.jpg" alt="Recommendation">
+    <span>Recommendation</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('stylist',2)">
+    <img src="./assets/AI Virtual Stylist App/3.jpg" alt="Wardrobe">
+    <span>Wardrobe</span>
+  </div>
+</div>
+ </div>
       </article>
 
-      <!-- Project 2 -->
+      <!-- 2️⃣ Personal Portfolio -->
       <article class="project-card reveal-up">
         <div class="project-header">
           <i class="fas fa-laptop-code project-icon"></i>
           <span class="project-tag">Web • HTML / CSS / JS</span>
         </div>
-
         <h4>Personal Portfolio</h4>
         <p>
           A responsive personal portfolio designed with smooth animations and
           clean layout to attract recruiters.
         </p>
+        <ul class="project-points">
+          <li>Fully responsive design</li>
+          <li>Smooth animations & transitions</li>
+          <li>SEO optimized</li>
+        </ul>
+        <div class="screenshots-row">
+  <div class="screenshot-card" onclick="openModal('portfolio',0)">
+    <img src="./assets/portfolio/1.png" alt="Home Page">
+    <span>Home</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('portfolio',1)">
+    <img src="./assets/portfolio/2.png" alt="Skills Page">
+    <span>Skills</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('portfolio',2)">
+    <img src="./assets/portfolio/3.png" alt="Contact Page">
+    <span>Contact</span>
+  </div>
+</div>
+
       </article>
 
-      <!-- Project 3 -->
+      <!-- 3️⃣ AI Resume Analyzer -->
       <article class="project-card reveal-up">
         <div class="project-header">
-          <i class="fas fa-calculator project-icon"></i>
-          <span class="project-tag">Mobile • React Native (Expo)</span>
+          <i class="fas fa-brain project-icon"></i>
+          <span class="project-tag">Web • HTML / CSS / JS / AI</span>
         </div>
-
-        <h4>Calculator App</h4>
+        <h4>AI Resume Analyzer</h4>
         <p>
-          A modern calculator app supporting dark and light themes
-          with animated UI interactions.
+          An intelligent resume analysis tool powered by AI that provides real-time feedback
+          on resume quality, ATS optimization, and actionable improvement suggestions.
         </p>
-
         <ul class="project-points">
-          <li>Theme toggle</li>
-          <li>Calculation history</li>
-          <li>Smooth animations</li>
+          <li>AI-powered resume analysis</li>
+          <li>ATS optimization scoring</li>
+          <li>Real-time feedback & suggestions</li>
+          <li>Beautiful responsive interface</li>
+          <li>Smooth animations & interactions</li>
         </ul>
+       <div class="screenshots-row">
+  <div class="screenshot-card" onclick="openModal('resume',0)">
+    <img src="./assets/AI resume Analyzer/1.png" alt="Upload Resume">
+    <span>Upload & Analyze</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('resume',1)">
+    <img src="./assets/AI resume Analyzer/2.png" alt="Results Dashboard">
+    <span>Results Dashboard</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('resume',2)">
+    <img src="./assets/AI resume Analyzer/3.png" alt="Suggestions">
+    <span>Suggestions</span>
+  </div>
+</div>
+
       </article>
 
-      <!-- Project 4 -->
+      <!-- 4️⃣ AI Story Generator -->
       <article class="project-card reveal-up">
         <div class="project-header">
-          <i class="fas fa-bullhorn project-icon"></i>
-          <span class="project-tag">Web • PHP & MySQL</span>
+          <i class="fas fa-brain project-icon"></i>
+          <span class="project-tag">Web • AI / NLP</span>
         </div>
-
-        <h4>College Announcement Website</h4>
+        <h4>AI Story Generator</h4>
         <p>
-          A full-stack web app to manage college announcements using PHP,
-          MySQL, and XAMPP.
+          An AI-powered web application that generates creative stories based on
+          user prompts using Natural Language Processing.
         </p>
-
         <ul class="project-points">
-          <li>CRUD operations</li>
-          <li>Admin dashboard</li>
-          <li>Responsive design</li>
+          <li>Prompt-based story generation</li>
+          <li>Clean & readable UI</li>
+          <li>Fast response & responsive layout</li>
         </ul>
+        <div class="screenshots-row">
+  <div class="screenshot-card" onclick="openModal('story',0)">
+    <img src="./assets/Ai story generator/1.png" alt="Prompt Input">
+    <span>Prompt Input</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('story',1)">
+    <img src="./assets/Ai story generator/2.png" alt="Generating Story">
+    <span>Generating Story</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('story',2)">
+    <img src="./assets/Ai story generator/3.png" alt="Generated Story">
+    <span>Generated Story</span>
+  </div>
+  <div class="screenshot-card" onclick="openModal('story',3)">
+    <img src="./assets/Ai story generator/4.png" alt="UI Design">
+    <span>UI Design</span>
+  </div>
+</div>
+
       </article>
 
     </div>
   </div>
 </section>
 
-    <!-- Education -->
+<!-- SINGLE MODAL FOR ALL PROJECTS -->
+<div id="imageModal" class="modal" onclick="closeModal(event)">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <button class="close-modal" onclick="closeModal()">&times;</button>
+    <img id="modalImage" src="" alt="Full Screenshot">
+  </div>
+</div>
+
+<script>
+  const projectImages = {
+    stylist: [
+      './assets/AI Virtual Stylist App/1.jpg', // Home Screen
+      './assets/AI Virtual Stylist App/2.jpg', // Recommendation
+      './assets/AI Virtual Stylist App/3.jpg', // Wardrobe
+      './assets/AI Virtual Stylist App/4.jpg'  // SignUP Screen
+    ],
+    portfolio: [
+      './assets/portfolio/1.png', // Home
+      './assets/portfolio/2.png', // Skills
+      './assets/portfolio/3.png'  // Contact
+    ],
+    resume: [
+      './assets/AI resume Analyzer/1.png', // Upload & Analyze
+      './assets/AI resume Analyzer/2.png', // Results Dashboard
+      './assets/AI resume Analyzer/3.png'  // Suggestions
+    ],
+    story: [
+      './assets/Ai story generator/1.png', // Prompt Input
+      './assets/Ai story generator/2.png', // Generating Story
+      './assets/Ai story generator/3.png', // Generated Story
+      './assets/Ai story generator/4.png'  // UI Design
+    ]
+  };
+
+  function openModal(project, index) {
+    document.getElementById('modalImage').src = projectImages[project][index];
+    document.getElementById('imageModal').classList.add('active');
+  }
+
+  function closeModal(event) {
+    if (event && event.target.id !== 'imageModal') return;
+    document.getElementById('imageModal').classList.remove('active');
+  }
+</script>
+
+
+<!-- Education -->
     <section id="education" class="section alt">
       <div class="container">
         <h3 class="section-title center">Education</h3>
@@ -282,7 +395,7 @@
             <div class="tl-content">
               <h4>BS Information Technology</h4>
               <p>FG Postgraduate College, Wah Cantt — Affiliated with University of the Punjab</p>
-              <p><strong>CGPA:</strong> 3.17 / 4.00</p>
+              <p><strong>CGPA:</strong> 3.09 / 4.00</p>
             </div>
           </li>
           <li class="reveal-up">
