@@ -16,10 +16,10 @@ const Projects: React.FC<ProjectsProps> = ({ onOpenModal }) => {
       description: 'A mobile application that helps users try outfits virtually and manage their wardrobe.',
       points: ['Wardrobe uploads & gallery', 'Authentication & image storage', 'Clean UI & smooth interactions'],
       images: [
-        'https://picsum.photos/400/700?random=1',
-        'https://picsum.photos/400/700?random=2',
-        'https://picsum.photos/400/700?random=3',
-        'https://picsum.photos/400/700?random=4'
+        './assets/AI Virtual Stylist App/4.jpg',
+        './assets/AI Virtual Stylist App/2.jpg',
+        './assets/AI Virtual Stylist App/1.jpg',
+        './assets/AI Virtual Stylist App/3.jpg'
       ]
     },
     {
@@ -30,9 +30,9 @@ const Projects: React.FC<ProjectsProps> = ({ onOpenModal }) => {
       description: 'Intelligent resume analysis tool providing real-time ATS scoring and suggestions.',
       points: ['AI-powered feedback', 'ATS optimization scoring', 'Real-time dashboard'],
       images: [
-        'https://picsum.photos/800/450?random=5',
-        'https://picsum.photos/800/450?random=6',
-        'https://picsum.photos/800/450?random=7'
+        './assets/AI resume Analyzer/3.png',
+        './assets/AI resume Analyzer/2.png',
+        './assets/AI resume Analyzer/1.png'
       ]
     },
     {
@@ -43,9 +43,10 @@ const Projects: React.FC<ProjectsProps> = ({ onOpenModal }) => {
       description: 'NLP application that generates creative stories based on user-driven prompts.',
       points: ['Prompt-based generation', 'Responsive layouts', 'Real-time NLP processing'],
       images: [
-        'https://picsum.photos/800/450?random=8',
-        'https://picsum.photos/800/450?random=9',
-        'https://picsum.photos/800/450?random=10'
+        './assets/Ai story generator/1.png',
+        './assets/Ai story generator/2.png',
+        './assets/Ai story generator/3.png',
+        './assets/Ai story generator/4.png'
       ]
     }
   ];
