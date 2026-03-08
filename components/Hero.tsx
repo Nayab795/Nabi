@@ -41,9 +41,13 @@ const Hero: React.FC = () => {
           <a href="#projects" className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-br from-brand-accent1 to-brand-accent2 text-white font-extrabold text-lg shadow-[0_12px_30px_rgba(59,130,246,0.35)] hover:scale-105 transition-transform">
             See Projects
           </a>
-          <a href="#" className="w-full sm:w-auto px-8 py-4 rounded-2xl border-2 border-brand-accent1 text-brand-accent1 font-extrabold text-lg hover:bg-brand-accent1/5 transition-colors">
-            Download CV
-          </a>
+         <a
+  href="./assets/resume/cv.pdf"
+  download
+  className="w-full sm:w-auto px-8 py-4 rounded-2xl border-2 border-brand-accent1 text-brand-accent1 font-extrabold text-lg hover:bg-brand-accent1/5 transition-colors"
+>
+  Download CV
+</a>
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 text-brand-muted text-sm font-semibold border-t border-brand-accent1/10 pt-8">
