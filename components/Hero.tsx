@@ -33,20 +33,23 @@ const Hero: React.FC = () => {
         </div>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-brand-muted leading-relaxed font-medium mb-12">
-          Fresh BS IT graduate specializing in AI, mobile app development, and web solutions. 
-          Expertise in React Native, Python, and Firebase.
+       BS IT graduate passionate about building intelligent AI-driven solutions, with hands-on experience in Machine Learning model training, React Native mobile apps, and modern web development using Python and Firebase
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-          <a href="#projects" className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-br from-brand-accent1 to-brand-accent2 text-white font-extrabold text-lg shadow-[0_12px_30px_rgba(59,130,246,0.35)] hover:scale-105 transition-transform">
-            See Projects
-          </a>
-         <a
-  href="./assets/resume/cv.pdf"
-  download
+          <a
+  href="#projects"
+  className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-br from-brand-accent1 to-brand-accent2 text-white font-extrabold text-lg shadow-[0_12px_30px_rgba(59,130,246,0.35)] hover:scale-105 transition-transform"
+>
+  See Projects
+</a>
+  <a
+  href="/Nabi/resume/cv.pdf"
+  download="Nayab-CV.pdf"
   className="w-full sm:w-auto px-8 py-4 rounded-2xl border-2 border-brand-accent1 text-brand-accent1 font-extrabold text-lg hover:bg-brand-accent1/5 transition-colors"
 >
-  Download CV
+  <i className="fas fa-download mr-2"></i>
+  Download Resume
 </a>
         </div>
 
